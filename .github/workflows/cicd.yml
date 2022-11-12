@@ -27,7 +27,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Use node js
-        uses: action/setup-node@v2
+        uses: action/setup-node@v3S
         with:
           node-version: "14.x"
       # Install project dependencies
